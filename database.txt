@@ -1,0 +1,81 @@
+1. Inner join:
+   SELECT student.name as student_name, couses.cname From student(table name) INNER join coures(table name) on student.id=courses.sid;
+2. Left join:
+   SELECT student.name as student_name, couses.cname From student(table name) LEFT join coures(table name) on student.id=courses.sid;
+3. Right join:
+   SELECT student.name as student_name, couses.cname From student(table name) RIGHT join coures(table name) on student.id=courses.sid;
+4. like: (DDL)
+   SELECT name FROM student WHERE address LIKE 'a%';
+   SELECT name FROM student WHERE address LIKE 'a_c';(start with a and end with c).
+
+
+-> add col in thye data base:
+
+ALTER table (table) name varcare(255);
+
+-> login and password:
+
+SELECT * FROM (table name)student where email='' and password='';
+
+-> between:
+
+SELECT * FROM student where id between 3 to 7;
+
+-> count:
+
+SELECT count student (*);
+
+SELECT count (name) from student;
+
+SELECT distinct count (*) from student name like 'a%';
+
+-> add col:
+
+ALTER TABLE coureses ADD price bigint(10);
+
+-> total:
+
+SELECT sum(price) as totral_price from coureses;
+
+-> add price:
+
+UPDATE `student` SET `id`='[value-1]',`name`='[value-2]',`address`='[value-3]',`pincode`='[value-4]' WHERE 1
+
+creat p
+
+acsending
+select*from student order  by marks acs name dcs; (if we have to chage the both and we can use) 
+select*from student order  by marks asc; (only for acs)
+select*from student order  by marks dcs; (only for dcs)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
